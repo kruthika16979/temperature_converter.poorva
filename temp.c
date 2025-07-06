@@ -9,6 +9,11 @@ int main() {
     printf("2. Fahrenheit to Celsius\n");
     printf("Enter your choice: ");
     scanf("%d", &choice);
+    if (choice == 1) {
+    printf("Enter temperature in Celsius: ");
+    scanf("%f", &temp);
+    printf("Temperature in Fahrenheit: %.2f\n", (temp * 9 / 5) + 32);
+}
 
     return 0;
 }
