@@ -28,7 +28,7 @@ int main()
 }
     else 
 {
-    printf("Invalid choice.\n");
+    printf("choice is incorrect.\n");
 }
     return 0;
 }
